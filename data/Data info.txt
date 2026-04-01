@@ -1,0 +1,27 @@
+Dataset Information – Customer Lifetime Value (CLV) & Retention Analysis
+
+This dataset contains transactional and behavioral data of customers from an e-commerce platform over a 12-month period.
+
+Total Records: ~10,000+ transactions
+Total Customers: ~1,200 unique users
+
+Columns Description:
+
+* Customer_ID: Unique identifier for each customer
+* Transaction_ID: Unique ID for each purchase
+* Transaction_Date: Date of purchase
+* Purchase_Amount: Total amount spent per transaction
+* Product_Category: Category of purchased product
+* Payment_Method: Mode of payment (UPI, Card, COD)
+* Region: Customer location/region
+* Tenure: Duration of customer relationship (in months)
+
+Derived Fields (Created during analysis):
+
+* CLV (Customer Lifetime Value): Total revenue generated per customer
+* Retention Rate: Percentage of returning customers
+* Churn Flag: Indicates inactive customers based on last purchase date
+* Customer Segment: High, Medium, Low value classification
+
+Purpose:
+The dataset is used to analyze customer purchasing behavior, estimate lifetime value, identify churn patterns, and support data-driven retention strategies.
